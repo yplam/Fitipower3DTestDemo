@@ -12,12 +12,12 @@ Fitipower 18e3:5031 USB 双目摄像头 Opencv 测试代码
 安装 libwebcam，并且根据实际情况修改 CMakeLists.txt 中 include_directories 跟 LINK_DIRECTORIES
 根据实际情况修改 CAM_ID，CAM_DEVICE 宏定义
 
-``
+```
 mkdir build
 cd build
 cmake ..
 make
 ./VideoCapture
-``
+```
 
 
